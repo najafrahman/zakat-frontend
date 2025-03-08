@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakat Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Zakat Calculator – Purify Your Wealth</h1>
+        <p>Calculate your Zakat obligation and help the needy today.</p>
+        <form id="zakatForm">
+            <div class="input-group">
+                <label for="wealth">Enter your total wealth (in gold or silver value):</label>
+                <input type="number" id="wealth" name="wealth" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="wealth_type">Select your wealth type:</label>
+                <select id="wealth_type" name="wealth_type" required>
+                    <option value="gold">Gold</option>
+                    <option value="silver">Silver</option>
+                </select>
+            </div>
+
+            <button type="submit">Calculate Zakat</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="App.js"></script>
+</body>
+</html>
+

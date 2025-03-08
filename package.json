@@ -1,0 +1,16 @@
+{
+    "name": "zakat-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for Zakat Calculator",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve public"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "serve": "^11.3.2"
+    },
+    "author": "",
+    "license": "ISC"
+}
+
